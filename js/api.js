@@ -7,8 +7,13 @@ async function getData(url = '') {
       cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
       credentials: 'same-origin', // include, *same-origin, omit
       headers: {
+<<<<<<< HEAD
         'Content-Type': 'application/json'
         // 'Content-Type': 'application/x-www-form-urlencoded',
+=======
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'    
+>>>>>>> e9b171d83b73c4c1361b693a598bc165f40258b4
       },
       redirect: 'follow', // manual, *follow, error
       referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
